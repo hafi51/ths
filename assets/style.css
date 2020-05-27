@@ -1,0 +1,843 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #16181E !important;
+    color: #ADAFB2;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0; 
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.covid{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    background-color: #ADAFB2;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+div.covid>h5>a{
+    color: black !important;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 400;
+}
+.navbar, .nav-link{
+    background-color:   #16181e !important;
+    color: #ADAFB2 !important;
+    font-size: 18px;
+}
+.nav-link:hover{
+    /* text-decoration: underline;  */
+    color: #FF8215 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+.navbar-brand{
+    margin-top: 15px !important;
+}
+.navbar-text{
+    margin-left: auto;
+    margin-top: -15px !important;
+}
+.dropdown-menu{
+    background-color: transparent;
+}
+.dropdown-item{
+    font-size: 15px !important;
+    color: #ADAFB2 !important;
+    text-align: inherit;
+    margin-left: 10px;
+}
+.dropdown-item:hover{
+    color: #FF7700 !important;
+    background-color: transparent !important;
+}
+.heading>h2{
+    color: #FF7700;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Laila', serif;
+}
+
+                                       /*main*/
+main{
+    margin: 0px 10px 0px 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button {
+    background-color: #FF7700;
+    border: none;
+    color: #E5E5E5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    color: #fff;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.buy{
+    display: block;
+    background-color: #C4C4C4;
+}
+.buy>h3, .buy>p{
+    color: black;
+    margin-bottom: 8px;
+}
+.bring{
+    display: block;
+    background-color: #C4C4C4;
+}
+.bring>h3, .bring>p{
+    color: black;
+    margin-bottom: 8px;
+}
+.buy, .bring, .ready, .livewire{
+    background-color: #E5E5E5;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+.buy, .bring, .ready, .livewire{
+    background-color: #E5E5E5;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+}
+.ready{
+    width: 100%;
+    background-color: #ADAFB2;
+    color: black;
+}
+.sign-up{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.sign-up hr {
+    display: inline-block;
+    width: 7%;
+    border: 1px solid #FF7700;
+    box-sizing: unset !important;
+}
+.sign-up h5, .sign-up h1 span{
+    color: #FF7700;
+}
+main hr{
+    width: 95%;
+    border: 1px solid #ADAFB2;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0px 0px 0px 25px;
+    margin: 70px 0px 0px 0px;
+}
+footer nav{
+    margin: 0px 160px;
+    height: 130px;   
+}
+footer hr{
+    width: 95%;
+    border: 1px solid #ADAFB2;
+}
+footer p{
+    width: 500px;
+}
+footer>section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:450px){
+    .header, .footer{
+      width:100%;
+    }
+    .covid{display: none;}
+    .bike{order: 0;}
+    .buy{order: 1;}
+    .promo{order: 2;}
+    .bring{order: 3;}
+    .ready{order: 4;}
+    .electric{order: 5;}
+    .livewire{order: 6;}
+    .sign-up{order: 7;}
+    img{width: 100%;}
+    nav img{
+        width: 80px;
+        height: 50px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 19px ;
+        margin: 0px 0px 10px 0px;
+    }
+    .buy, .bike, .bring, .promo, .ready, .livewire, .electric {
+        margin: 20px 0px 15px 0px;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+    }
+    .buy>h3, .bring>h3, .ready>h3, .livewire>h3 {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 15px;
+        color: #E5E5E5;
+    }
+    .buy>p, .bring>p, .ready>p, .livewire>p {
+        font-size: 14px;
+        text-align: center;
+        color: #E5E5E5;
+        margin: 0px 0px 10px 0px;
+    }
+    .buy, .bring, .ready, .livewire {
+        background-color: transparent; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sign-up h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .sign-up h1 span{
+        display: block;
+        margin-left: 45px;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+    }
+    footer nav ul {
+        margin-left: 15px; 
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }
+}
+
+
+
+
+@media screen and (min-width:451px) and (max-width:700px){
+    .header, .footer{
+      width:100%;
+    }
+    .covid{display: none;}
+    .bike{order: 0;}
+    .buy{order: 1;}
+    .promo{order: 2;}
+    .bring{order: 3;}
+    .ready{order: 4;}
+    .electric{order: 5;}
+    .livewire{order: 6;}
+    .sign-up{order: 7;}
+    img{width: 100%;}
+    nav img{
+        width: 120px;
+        height: 60px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 19px ;
+        margin: 0px 0px 10px 0px;
+    }
+    .buy, .bike, .bring, .promo, .ready, .livewire, .electric {
+        margin: 20px 0px 15px 0px;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+    }
+    .buy>h3, .bring>h3, .ready>h3, .livewire>h3 {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 15px;
+        color: #E5E5E5;
+        display: block;
+    }
+    .livewire>h3{margin-left: 25px;}
+    .buy>p, .bring>p, .ready>p, .livewire>p {
+        font-size: 14px;
+        text-align: center;
+        color: #E5E5E5;
+        margin: 0px 80px 10px 110px;
+    }
+    .buy, .bring, .ready, .livewire {
+        background-color: transparent; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }  
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sign-up h1{
+        font-size: 20px;
+        margin-top: 10px;
+        /* margin-left: 28%; */
+    }
+    .sign-up h1 span{
+        display: block;
+        margin-left: 45px;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    footer nav ul {
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .span{
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:992px){
+    .header, .main, .footer{
+        width:100%;
+    }
+    .main{margin: 0px;}
+    .bike{order: 1;}
+    .buy{order: 0;}
+    .promo{order: 3;}
+    .bring{order: 2;}
+    .ready{order: 4;}
+    .electric{order: 5;}
+    .livewire{order: 6;}
+    .sign-up{order: 7;}
+    img{width: 100%;}
+    nav img{
+          width: 120px;
+          height: 75px;
+          margin: 0px 0px 0px 0px;
+    } 
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 18px;
+    }
+    .dropdown-item{font-size: 16px !important;}
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 25px ;
+        margin: 0px 0px 10px 0px;
+    }
+    .buy, .bike, .bring, .promo, .ready, .livewire, .electric {
+        margin: 20px 0px 15px 0px;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+    }
+    .bike, .promo, .electric{
+        width: 100%;
+    }
+    .buy>h3, .bring>h3, .ready>h3, .livewire>h3 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 15px;
+        color: #E5E5E5;
+        display: block;
+        margin-bottom: 0px;
+    }
+    .livewire>h3{margin-left: 25px;}
+    .buy>p, .bring>p, .ready>p, .livewire>p {
+        font-size: 17px;
+        text-align: center;
+        color: #E5E5E5;
+        margin: 0px 80px 10px 110px;
+    }
+    .buy, .bring, .ready, .livewire {
+        background-color: transparent ; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }  
+    .button{
+        font-size: 17px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sign-up h1{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .sign-up h1 span{
+        color: #FF7700;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        font-size: 14px;
+        margin-top: 15px;
+        color: #ADAFB2;
+    }
+    .sign-up h3{
+        display: none;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .sign-up>.button{
+        background-color: #ADAFB2;
+        color: #16181E;
+    }
+    .sign-up>.button:hover{
+        color: white;
+    }
+    main hr{
+        width: 88%;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    footer nav ul {
+        width: 100%;
+        margin-left: -17px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .span{
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 88%;
+    } 
+}
+@media screen and (min-width:993px){
+    header, main, .footer{
+    width: 100%;
+    }
+    .bike{order: 1;}
+    .buy{order: 0;}
+    .promo{order: 2;}
+    .bring{order: 3;}
+    .ready{order: 4;}
+    .electric{order: 6;}
+    .livewire{order: 5;}
+    .sign-up{order: 7;}
+    
+    img{width: 100%;}
+    nav img{
+        width: 150px;
+        height: 80px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        float: right !important;
+        text-align: justify;
+    } 
+    .dropdown-menu{
+        background-color: #ADAFB2;
+    }
+    .dropdown-item{
+        color: #16181E !important;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 30px ;
+    }
+    main{margin: 0px;}
+    .buy, .bike, .bring, .promo, .ready, .livewire, .electric {
+        margin: 40px 0px 15px 0px;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+    }
+    .buy, .bring, .livewire{
+        width: 40%;
+    }
+    .bike, .promo, .electric{
+        width: 60%;
+    }
+    .sign-up{
+        width: 100%;
+    }
+    .buy>h3, .bring>h3, .ready>h3, .livewire>h3 {
+        font-size: 25px;
+        text-align: center;
+        padding: 15px 15px;
+        color: #E5E5E5;
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    } 
+    .ready>h3{
+        font-size: 35px;
+        font-weight: 300;
+        margin: 5px 83px;
+    }
+    .buy>p, .bring>p, .ready>p, .livewire>p {
+        font-size: 18px;
+        text-align: center;
+        color: #E5E5E5;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        width: 75%;
+    }
+    .buy, .bring, .ready, .livewire {
+        background-color: transparent; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;    
+    }  
+    .button{
+        font-size: 25px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .sign-up h1{
+        font-size: 30px;
+        margin: 10px 0px 0px 7%;
+        width: 34%;
+        color: #ffffff;
+    }
+    .sign-up>div{
+        margin: 0px 5% 0px 15%;
+    }
+    .sign-up h3{color: #ffffff;}
+    .sign-up h5{
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;;
+    }
+    .sign-up .button{
+        font-size: 17px;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 25px 0px 25px 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 28px 0px 35px;
+    }
+
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 0;
+        width: 60%;
+        font-size: 12px;
+        color: #ADAFB2;
+        margin: 2% 0px 0px 5%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .footer-icon{
+        order: 1;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    footer ul li{
+        margin: 4% 5% 0px 0px;
+        padding: 0px 0px;
+    }
+    .footer hr{
+        width: 95%;
+    }
+}
+    
