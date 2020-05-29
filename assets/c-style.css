@@ -262,14 +262,15 @@ footer>section{
     input{
         height: 45px;
     }
+    form{margin: 20px 0px;}
     input, textarea{
-        width: 65%;
+        width: 80%;
         margin: 5px 20% 5px 10%;
         border-radius: 3px;
         border: none;
     }
     .form .button{
-        width: 65%;
+        width: 80%;
         margin: 0px 10%;
     }
 
@@ -331,28 +332,28 @@ footer>section{
         font-weight: 300;
         margin: 5px 0px;
     }
-    .sign-up{
-        align-items: center;
-        flex-direction: column;
+    .help section {
+        height: 80px;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        width: 100%;
     }
-    .sign-up h1{
-        font-size: 20px;
-        margin-top: 10px;
+    .help hr{width: 100%;
+        border: 1px solid #48494a;
     }
-    .sign-up h1 span{
-        display: block;
-        margin-left: 45px;
+    .help .fas {
+        display: inline;
+        margin: -23px 0px 0px 355px;
     }
-    .sign-up hr{
-        display: none;
+    .help .fas:hover{
+        color: #FF7700;
+        font-size: 23px;
+        transition: 0.3s ease;
+        margin-top: -25px;
     }
-    .sign-up h5{
-        display: none;
-    }
-    .sign-up h3{
-        font-size: 18px;
-        margin-top: 10px;
-    }
+
     footer nav{
         width: 100%;
         height: auto;
@@ -462,12 +463,13 @@ footer>section{
         margin-top: 10px;
     }
     .form{
-        margin: 1px 5px 45px 5px;
+        margin: 5% 5% 45px 5%;
         box-shadow: 2px 2px 30px -12px #ffffff;
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
     }
+    form{margin: 20px 0px;}
     .label{
         font-size: 14px;
         color: #fff;
@@ -525,7 +527,7 @@ footer>section{
         margin: 10px 20% 30px 3%;
     }
     .help{
-        margin: 10px 5px 45px 5px;
+        margin: 5% 5% 45px 5%;
         display: flex;
         flex-wrap: wrap;
         color: #fff;
@@ -551,8 +553,30 @@ footer>section{
         font-weight: 300;
         margin: 5px 0px;
     }
-    .help hr{
+    .help section {
+        height: 80px;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
         width: 100%;
+    }
+    .help hr{width: 100%;
+        border: 1px solid #48494a;
+    }
+    .help .fas {
+        display: inline;
+        margin: -23px 0px 0px 87%;
+    }
+    .help .fas:hover{
+        color: #FF7700;
+        font-size: 23px;
+        transition: 0.3s ease;
+        margin-top: -25px;
+    }
+    .help hr{
+        width: 90%;
+        margin-left: 0px;
     }
     .sign-up{
         align-items: center;
@@ -644,7 +668,7 @@ footer>section{
         justify-content: space-around;
     }
     .footer hr{
-        width: 90%;
+        width: 92%;
     }
 }
 
@@ -738,6 +762,9 @@ footer>section{
         border-radius: 3px;
         border: none;
     }
+    form{
+        margin-top: 20px;
+    }
     .form .button{
         width: 88%;
         margin: 10px 7%;
@@ -804,9 +831,31 @@ footer>section{
         font-weight: 300;
         margin: 5px 0px;
     }
-    .help hr{
+    .help section {
+        height: 80px;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
         width: 100%;
     }
+    .help hr{
+        width: 95%;
+        border: 1px solid #48494a;
+        margin-left: 0px;
+    }
+    .help .fas {
+        display: inline;
+        margin: -23px 0px 0px 90%;
+    }
+    .help .fas:hover{
+        color: #FF7700;
+        font-size: 23px;
+        transition: 0.3s ease;
+        margin-top: -25px;
+    }
+    
+    
     .sign-up{
         align-items: center;
         flex-direction: column;
@@ -839,7 +888,7 @@ footer>section{
         color: white;
     }
     main hr{
-        width: 88%;
+        width: 90%;
     }
     footer nav{
         width: 100%;
@@ -1072,6 +1121,7 @@ footer>section{
         margin: -25px 0px 0px 0px;
         width: 75%;
     }
+    
     .help hr{
         width: 95%;
         margin: -25px 0px;
