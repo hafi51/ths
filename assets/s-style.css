@@ -1,0 +1,848 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #16181E !important;
+    color: #ADAFB2;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0; 
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.covid{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    background-color: #ADAFB2;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+div.covid>h5>a{
+    color: black !important;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 400;
+}
+.navbar, .nav-link{
+    background-color:   #16181e !important;
+    color: #ADAFB2 !important;
+    font-size: 18px;
+}
+.nav-link:hover{
+    /* text-decoration: underline;  */
+    color: #FF8215 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+.navbar-brand{
+    margin-top: 15px !important;
+}
+.navbar-text{
+    margin-left: auto;
+    margin-top: -15px !important;
+}
+.dropdown-menu{
+    background-color: transparent;
+}
+.dropdown-item{
+    font-size: 15px !important;
+    color: #ADAFB2 !important;
+    text-align: inherit;
+    margin-left: 10px;
+}
+.dropdown-item:hover{
+    color: #FF7700 !important;
+    background-color: transparent !important;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    /* background-color: black; */
+}
+
+                                       /* main */
+main{
+    background-color: #eeeceb;
+}  
+.content{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 2px;  
+}
+.dot:hover{
+      border: 2px solid black;
+      border-radius: 50%;
+      height: 25px;
+      width: 25px;
+      transition: 0.3s ease;
+}
+  /* .circle{
+      height: 40px;
+      width: 145px;
+      display: inline-block;
+  } */
+.button {
+    background-color: #FF7700;
+    border: none;
+    color: #E5E5E5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    color: #fff;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .sign-up{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.sign-up hr {
+    display: inline-block;
+    width: 7%;
+    border: 1px solid #FF7700;
+    box-sizing: unset !important;
+}
+.sign-up h5, .sign-up h1 span{
+    color: #FF7700;
+}
+main hr{
+    width: 95%;
+    border: 1px solid #ADAFB2;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0px 0px 0px 25px;
+    margin: 70px 0px 0px 0px;
+}
+footer nav{
+    margin: 0px 160px;
+    height: 130px;   
+}
+footer hr{
+    width: 95%;
+    border: 1px solid #ADAFB2;
+}
+footer p{
+    width: 500px;
+}
+footer>section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+/* ***************************************************************************************************** */
+
+
+@media screen and (max-width:450px){
+    .header, .footer{
+        width:100%;
+      }
+    .covid{display: none;}
+    img{width: 100%;}
+    nav img{
+        width: 80px;
+        height: 50px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .nav-heading {
+        order: 0;
+        width: 100%;
+        height: 80px;
+        margin-top: 35px;
+    }
+    .nav-heading h2{
+        font-size: 28px;
+    }
+    .nav-img{
+        order: 1;
+        width: 100%; 
+    }
+                                                /* main */
+    
+    .content{
+        margin: 0px 25px;
+        color: black;
+    }
+    .street-750, .street-rod, .iron-883, .forty, .roadster, .iron-1200{
+        margin: 20px 0px 15px 0px;
+        text-align: left;
+    }
+    .street-750{order: 1;}
+    .street-rod{order: 2;}
+    .iron-883{order: 3;}
+    .forty{order: 4;}
+    .roadster{order: 5;}
+    .iron-1200{order: 6;}
+    .street-750 h3, .street-rod h3, .iron-883 h3, .forty h3, .roadster h3, .iron-1200 h3{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+    .street-750 p, .street-rod p, .iron-883 p, .forty p, .roadster p, .iron-1200 p{
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0px;
+    }
+
+
+    .button{
+        font-size: 13px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+        background-color: #16181E;
+    }
+    .sign-up h1{
+        font-size: 20px;
+        margin-top: 30px;
+        color: #fff;
+    }
+    /* .sign-up h1 span{
+        display: block;
+        margin-left: 45px;
+    } */
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+    }
+    footer nav ul {
+        margin-left: 15px; 
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }   
+}
+
+@media screen and (min-width:451px) and (max-width:700px){
+    .header, .footer{
+        width:100%;
+      }
+    .covid{display: none;}
+    img{width: 100%;}
+    nav img{
+        width: 80px;
+        height: 50px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .nav-heading {
+        order: 0;
+        width: 100%;
+        height: 65px;
+        margin-top: 20px;
+    }
+    .nav-heading h2{
+        font-size: 28px;
+        font-family: 'Laila', serif;
+    }
+    .nav-img{
+        order: 1;
+        width: 100%; 
+    }
+                                        /* main */
+    .content{
+        margin: 0px 20px;
+        justify-content: center;
+        color: black;
+    }
+    .street-750, .street-rod, .iron-883, .forty, .roadster, .iron-1200{
+        margin: 20px 0px 15px 0px;
+        text-align: left;
+    }
+    .street-750{order: 1;}
+    .street-rod{order: 2;}
+    .iron-883{order: 3;}
+    .forty{order: 4;}
+    .roadster{order: 5;}
+    .iron-1200{order: 6;}
+    .street-750 h3, .street-rod h3, .iron-883 h3, .forty h3, .roadster h3, .iron-1200 h3{
+        font-size: 25px;
+        margin: 25px 0px 5px 0px;
+    }
+    .street-750 p, .street-rod p, .iron-883 p, .forty p, .roadster p, .iron-1200 p{
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0px;
+    }
+    
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+        background-color: #16181E;
+    }
+    .sign-up h1{
+        font-size: 20px;
+        margin-top: 30px;
+        color: #fff;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    footer nav ul {
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .span{
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:992px){
+    .header, .footer{
+        width:100%;
+      }
+    .covid{display: none;}
+    img{width: 100%;}
+    nav img{
+        width: 120px;
+        height: 75px;
+        margin: 0px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .nav-heading {
+        order: 0;
+        /* width: 33%; */
+        height: 65px;
+        margin-top: 50px;
+        margin-left: 25%;
+    }
+    .nav-heading h2{
+        font-size: 40px;
+        font-family: 'Laila', serif;
+    }
+    
+    .nav-img img{
+        order: 1;
+        /* width: 67%;  */
+        height: 350px;
+    }
+
+                                            /* main */
+    .content{
+        margin: 0px 20px;
+        justify-content: center;
+        color: black;
+    }
+    .street-750, .street-rod, .iron-883, .forty, .roadster, .iron-1200{
+        box-shadow: 2px 2px 30px -12px #000000;
+        margin: 20px 15px 15px 15px;
+        text-align: left;
+        width: 45%;
+        text-align: center;
+    }
+    .street-750{order: 1;}
+    .street-rod{order: 2;}
+    .iron-883{order: 3;}
+    .forty{order: 4;}
+    .roadster{order: 5;}
+    .iron-1200{order: 6;}
+    .street-750 h3, .street-rod h3, .iron-883 h3, .forty h3, .roadster h3, .iron-1200 h3{
+        font-size: 25px;
+        margin: 25px 0px 5px 0px;
+        
+    }
+    .street-750 p, .street-rod p, .iron-883 p, .forty p, .roadster p, .iron-1200 p{
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0px;
+    }                                
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+        background-color: #16181E;
+    }
+    .sign-up h1{
+        font-size: 25px;
+        margin-top: 50px;
+        color: #fff;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    footer nav ul {
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .span{
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:993px){
+    .header, .footer{
+        width:100%;
+      }
+    img{width: 100%;}
+    nav img{
+        width: 120px;
+        height: 75px;
+        margin: 0px 0px 0px 0px;
+    }  
+    .navbar-text{
+        float: right !important;
+        text-align: justify;
+    } 
+    .dropdown-menu{
+        background-color: #ADAFB2;
+    }
+    .dropdown-item{
+        color: #16181E !important;
+        font-size: 20px;
+    }
+    .dropdown-item:hover{color: #fff !important;}
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading{
+        justify-content: center;
+    }
+    .nav-heading {
+        order: 0;
+        height: 65px;
+        margin: 20px 0px;
+    }
+    .nav-heading h2{
+        color: #FF7700;
+        font-size: 40px;
+        font-family: 'Laila', serif;
+    }
+    
+    .nav-img {
+        display: none;
+    }
+                                            /* main */
+    .content{
+        margin: 0px 20px;
+        justify-content: center;
+        color: black;
+    }
+    .street-750, .street-rod, .iron-883, .forty, .roadster, .iron-1200{
+        margin: 20px 15px 15px 15px;
+        text-align: left;
+        width: 30%;
+        text-align: center;
+        background-color: #fff;
+        height: 355px;
+    }
+    .street-750, .street-rod, .iron-883{margin-top: 50px;}
+    .forty, .roadster, .iron-1200{margin-bottom: 50px;}
+    .street-750{order: 1;}
+    .street-rod{order: 2;}
+    .iron-883{order: 3;}
+    .forty{order: 4;}
+    .roadster{order: 5;}
+    .iron-1200{order: 6;}
+    .street-750 h3, .street-rod h3, .iron-883 h3, .forty h3, .roadster h3, .iron-1200 h3{
+        font-size: 25px;
+        margin: 25px 0px 5px 0px;
+        
+    }
+    .street-750 p, .street-rod p, .iron-883 p, .forty p, .roadster p, .iron-1200 p{
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0px;
+    }
+    .street-750:hover, .street-rod:hover, .iron-883:hover, .forty:hover, .roadster:hover, .iron-1200:hover{
+        height: 380px;   
+        transition: 0.5s ease;
+        border: 2px solid #FF7700;
+    }
+
+
+    .hide {display: none;}
+          
+    .myDIV:hover + .hide {
+        display: block;
+    }
+    .dot:hover{
+        display: block;
+        border: 2px solid black;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        transition: 0.3s ease;
+  }
+
+
+    .button{
+        font-size: 20px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        color: #fff;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .sign-up h1{
+        font-size: 30px;
+        margin: 10px 0px 0px 7%;
+        width: 34%;
+        color: #ffffff;
+    }
+    .sign-up>div{
+        margin: 0px 5% 0px 15%;
+    }
+    .sign-up h3{color: #ffffff;}
+    .sign-up h5{
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;;
+    }
+    .sign-up .button{
+        font-size: 17px;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 25px 0px 25px 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 28px 0px 35px;
+    }
+
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 0;
+        width: 60%;
+        font-size: 12px;
+        color: #ADAFB2;
+        margin: 2% 0px 0px 5%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .footer-icon{
+        order: 1;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    footer ul li{
+        margin: 4% 5% 0px 0px;
+        padding: 0px 0px;
+    }
+    .footer hr{
+        width: 95%;
+    }
+}

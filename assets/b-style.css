@@ -936,7 +936,7 @@ footer>section{
         margin: 35px 14px 0px 22%;
         width: 75%;
     }
-    .street{order: 1;}
+    .street{order: 1 ;}
     .electric{order: 2;}
     .cruiser{order: 3;}
     .touring{order: 4;}
@@ -1183,9 +1183,9 @@ footer>section{
         width: 30%;
         margin: 40px 0% 10px 3%;
     }
-    .cruiser img, .touring img, .trike img{  
+    /* .cruiser img, .touring img, .trike img{  
         height: 430px !important;
-    }
+    } */
     .pan-america, .bronx, .ebicycles{
         width: 30%;
         margin: 10px 0% 10px 3%;
@@ -1198,17 +1198,17 @@ footer>section{
         margin: 20px 0% 30px 3%;
         width: 45%;
     }
-    .trike img{height: 63%;}
+    /* .trike img{height: 63%;} */
     .street h3, .electric h3, .cruiser h3, .touring h3, .trike h3, .pan-america h3, .bronx h3, .ebicycles h3, .coming h3, .balance h3, .balance-bikes h3{
         margin: 25px 0px 0px 0px;
         font-size: 27px;
-        height: 55px;
+        /* height: 55px; */
     }
     .street p, .electric p, .cruiser p, .touring p, .trike p, .pan-america p, .bronx p, .ebicycles p, .coming p, .balance p, .balance-bikes p{
         margin: 10px 0px;
         font-size: 18px;
         font-weight: 300;
-        height: 100px;
+        /* height: 120px; */
     }
     .coming{box-shadow: 2px 2px 30px -12px #000000;}
     .button{

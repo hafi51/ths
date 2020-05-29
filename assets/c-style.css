@@ -1,0 +1,1149 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #16181E !important;
+    color: #ADAFB2;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0; 
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.covid{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    background-color: #ADAFB2;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+div.covid>h5>a{
+    color: black !important;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 400;
+}
+.navbar, .nav-link{
+    background-color:   #16181e !important;
+    color: #ADAFB2 !important;
+    font-size: 18px;
+}
+.nav-link:hover{
+    /* text-decoration: underline;  */
+    color: #FF8215 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+.navbar-brand{
+    margin-top: 15px !important;
+}
+.navbar-text{
+    margin-left: auto;
+    margin-top: -15px !important;
+}
+.dropdown-menu{
+    background-color: transparent;
+}
+.dropdown-item{
+    font-size: 15px !important;
+    color: #ADAFB2 !important;
+    text-align: inherit;
+    margin-left: 10px;
+}
+.dropdown-item:hover{
+    color: #FF7700 !important;
+    background-color: transparent !important;
+}
+.heading>h2{
+    color: #FF7700;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Laila', serif;
+}
+
+                                       /*main*/
+main{
+    margin: 0px 10px 0px 10px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button {
+    background-color: #FF7700;
+    border: none;
+    color: #E5E5E5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    color: #fff;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.buy{
+    display: block;
+    background-color: #C4C4C4;
+}
+.buy>h3, .buy>p{
+    color: black;
+    margin-bottom: 8px;
+}
+.bring{
+    display: block;
+    background-color: #C4C4C4;
+}
+.bring>h3, .bring>p{
+    color: black;
+    margin-bottom: 8px;
+}
+.buy, .bring, .ready, .livewire{
+    background-color: #E5E5E5;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+.buy, .bring, .ready, .livewire{
+    background-color: #E5E5E5;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+}
+.ready{
+    width: 100%;
+    background-color: #ADAFB2;
+    color: black;
+}
+.sign-up{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.sign-up hr {
+    display: inline-block;
+    width: 7%;
+    border: 1px solid #FF7700;
+    box-sizing: unset !important;
+}
+.sign-up h5, .sign-up h1 span{
+    color: #FF7700;
+}
+main hr{
+    width: 95%;
+    border: 1px solid #ADAFB2;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0px 0px 0px 25px;
+    margin: 70px 0px 0px 0px;
+}
+footer nav{
+    margin: 0px 160px;
+    height: 130px;   
+}
+footer hr{
+    width: 95%;
+    border: 1px solid #ADAFB2;
+}
+footer p{
+    width: 500px;
+}
+footer>section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ******************************************************************************************************************************** */
+@media screen and (max-width:450px) {
+    .header, .footer{
+      width:100%;
+    }
+    .covid{display: none;}
+    nav img{
+        width: 80px;
+        height: 50px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 19px ;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    .main-heading{
+        color: #fff;
+        width: 100%;
+        margin: 20px 10px 0px 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .main-heading h1{
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .main-heading p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .form{
+        margin: 1px 5px 45px 5px;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .label{
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;  
+    }
+    .label span{
+        color: #FF7700;
+    }
+    input{
+        height: 45px;
+    }
+    input, textarea{
+        width: 65%;
+        margin: 5px 20% 5px 10%;
+        border-radius: 3px;
+        border: none;
+    }
+    .form .button{
+        width: 65%;
+        margin: 0px 10%;
+    }
+
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        color: #fff;
+    }
+   
+    .info h3{
+        font-size: 20px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;
+    }
+    .fas{
+        color: #fff;
+        display: inline-block;
+        margin: 10px 0% 10px 10%;
+    }
+    .info p{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 3%;
+    }
+    .info a{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff !important;
+        width: 60%;
+        margin: 10px 20% 10px 3%;
+    }
+    .help{
+        margin: 10px 5px 45px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+    .help h1{    
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .help h3{
+        font-weight: 300;
+        font-size: 15px;
+        text-align: justify;
+        margin: 15px 0px;
+    }
+    .help h5{
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+    .help p{
+        font-size: 14px;
+        font-weight: 300;
+        margin: 5px 0px;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sign-up h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .sign-up h1 span{
+        display: block;
+        margin-left: 45px;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+    }
+    footer nav ul {
+        margin-left: 15px; 
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:700px){
+    .header, .footer{
+      width:100%;
+    }
+    .covid{display: none;}
+    
+    img{width: 100%;}
+    nav img{
+        width: 120px;
+        height: 60px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 15px;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 19px ;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    .main-heading{
+        color: #fff;
+        width: 100%;
+        margin: 20px 10px 0px 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .main-heading h1{
+        font-weight: 300;
+        font-size: 35px;
+    }
+    .main-heading p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    .form{
+        margin: 1px 5px 45px 5px;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .label{
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;  
+    }
+    .label span{
+        color: #FF7700;
+    }
+    input{
+        height: 45px;
+    }
+    input, textarea{
+        width: 78%;
+        margin: 5px 20% 5px 10%;
+        border-radius: 3px;
+        border: none;
+    }
+    .form .button{
+        width: 78%;
+        margin: 10px 10%;
+    }
+
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        color: #fff;
+    }
+   
+    .info h3{
+        font-size: 20px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;
+    }
+    .fas{
+        color: #fff;
+        display: inline-block;
+        margin: 10px 0% 10px 10%;
+    }
+    .info p{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 3%;
+    }
+    .info a{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff !important;
+        width: 60%;
+        margin: 10px 20% 30px 3%;
+    }
+    .help{
+        margin: 10px 5px 45px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+    .help h1{    
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .help h3{
+        font-weight: 300;
+        font-size: 15px;
+        text-align: justify;
+        margin: 15px 0px 40px 0px;
+        width: 90%;
+    }
+    .help h5{
+        font-size: 18px;
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .help p{
+        font-size: 14px;
+        font-weight: 300;
+        margin: 5px 0px;
+    }
+    .help hr{
+        width: 100%;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sign-up h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .sign-up h1 span{
+        display: block;
+        margin-left: 45px;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        display: none;
+    }
+    .sign-up h3{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    footer nav ul {
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .span{
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:992px){
+    .header, .footer{
+        width:100%;
+    }
+    
+    
+    nav img{
+          width: 120px;
+          height: 75px;
+          margin: 0px 0px 0px 0px;
+    } 
+    .navbar-text{
+        margin: 0px 0px 0px 0px !important;
+        float: right !important;
+        text-align: justify;
+    } 
+    .nav-link{
+        font-size: 18px;
+    }
+    .dropdown-item{font-size: 16px !important;}
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 25px ;
+        margin: 0px 0px 10px 0px;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    .main-heading{
+        color: #fff;
+        width: 100%;
+        margin: 20px 10px 0px 10px;
+        text-align: center;
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-heading h1{
+        font-weight: 300;
+        font-size: 35px;
+        width: 100%;
+    }
+    .main-heading p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+        width: 60%;
+    }
+    .form{
+        margin: 30px 5% 45px 5%;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 90%;
+    }
+    .label{
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;  
+    }
+    .label span{
+        color: #FF7700;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first{
+        margin-left: 10px;
+    }
+    .first input, .last input{
+        width: 80%;
+        margin:  5px 20% 5px 10%;
+    }
+    input{
+        height: 45px;
+    }
+    input, textarea{
+        width: 88%;
+        margin: 5px 20% 5px 7%;
+        border-radius: 3px;
+        border: none;
+    }
+    .form .button{
+        width: 88%;
+        margin: 10px 7%;
+    }
+
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        color: #fff;
+    }
+   
+    .info h3{
+        font-size: 20px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;
+    }
+    .fas{
+        color: #fff;
+        display: inline-block;
+        margin: 10px 0% 10px 10%;
+    }
+    .info p{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 3%;
+    }
+    .info a{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff !important;
+        width: 60%;
+        margin: 10px 20% 30px 3%;
+    }
+    .help{
+        margin: 30px 5% 45px 5%;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+    }
+    .help h1{    
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .help h3{
+        font-weight: 300;
+        font-size: 15px;
+        text-align: justify;
+        margin: 15px 0px 40px 0px;
+        width: 90%;
+    }
+    .help h5{
+        font-size: 18px;
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .help p{
+        font-size: 14px;
+        font-weight: 300;
+        margin: 5px 0px;
+    }
+    .help hr{
+        width: 100%;
+    }
+    .sign-up{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sign-up h1{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .sign-up h1 span{
+        color: #FF7700;
+    }
+    .sign-up hr{
+        display: none;
+    }
+    .sign-up h5{
+        font-size: 14px;
+        margin-top: 15px;
+        color: #ADAFB2;
+    }
+    .sign-up h3{
+        display: none;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .sign-up>.button{
+        background-color: #ADAFB2;
+        color: #16181E;
+    }
+    .sign-up>.button:hover{
+        color: white;
+    }
+    main hr{
+        width: 88%;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    footer ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px;
+        margin-left: -25px;
+    }
+    footer nav ul {
+        width: 100%;
+        margin-left: -17px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    .pipe{
+        display: none;
+    }
+    .span{
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-right: 30px;
+    }
+    footer>section {
+        flex-direction: column;
+    }
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #ADAFB2;
+        margin: 0px;
+    }
+    .footer-p span{
+        display: none;
+    }
+    .footer-icon{
+        order: -1;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer hr{
+        width: 88%;
+    } 
+}
+
+@media screen and (min-width:993px){
+    .header, .footer{
+        width:100%;
+    }
+    nav img{
+        width: 150px;
+        height: 80px;
+        margin: 5px 0px 0px 0px;
+    }  
+    .navbar-text{
+        float: right !important;
+        text-align: justify;
+    } 
+    .dropdown-menu{
+        background-color: #ADAFB2;
+    }
+    .dropdown-item{
+        color: #16181E !important;
+    }
+    .navbar-dark, .navbar-toggler{
+        border-color: #FF7700 !important;
+    }
+    .heading h2{
+        font-size: 30px ;
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    .main-heading{
+        color: #fff;
+        width: 100%;
+        margin: 20px 10px 0px 10px;
+        text-align: center;
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-heading h1{
+        font-weight: 300;
+        font-size: 35px;
+        width: 100%;
+    }
+    .main-heading p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+        width: 60%;
+    }
+    .form{
+        margin: 55px 0% 90px 5%;
+        box-shadow: 2px 2px 30px -12px #ffffff;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 43%;
+    }
+    .label{
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;  
+    }
+    .label span{
+        color: #FF7700;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first{
+        margin-left: 10px;
+    }
+    .first input, .last input{
+        width: 80%;
+        margin:  5px 20% 5px 10%;
+    }
+    input{
+        height: 45px;
+    }
+    input, textarea{
+        width: 88%;
+        margin: 5px 20% 5px 7%;
+        border-radius: 3px;
+        border: none;
+    }
+    form{margin-top: 30px;}
+    .form .button{
+        width: 88%;
+        margin: 10px 7%;
+    }
+
+    .button{
+        font-size: 15px;
+        margin: 10px 0px 15px 0px;
+        padding: 10px 13px;
+        border-radius: 3px;
+        color: #fff;
+    }
+   
+    .info h3{
+        font-size: 20px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 10%;
+    }
+    .fas{
+        color: #fff;
+        display: inline-block;
+        margin: 10px 0% 10px 10%;
+    }
+    .info p{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff;
+        width: 60%;
+        margin: 10px 20% 10px 3%;
+    }
+    .info a{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff !important;
+        width: 60%;
+        margin: 10px 20% 30px 3%;
+    }
+    .help{
+        margin: 200px 5% 45px 5%;
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        color: #fff;
+        align-content: space-between;
+        height: 340px;
+    }
+    .help h1{    
+        font-weight: 300;
+        font-size: 30px;
+        
+    }
+    .help h3{
+        font-weight: 300;
+        font-size: 15px;
+        text-align: justify;
+        margin: 0px 0px 0px 0px;
+        width: 90%;
+    }
+    .help h5{
+        font-size: 18px;
+        width: 100%;
+    }
+    .help p{
+        font-size: 14px;
+        font-weight: 300;
+        margin: -25px 0px 0px 0px;
+        width: 75%;
+    }
+    .help hr{
+        width: 95%;
+        margin: -25px 0px;
+    }
+    .help section{
+        height: 80px;
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .help .fas{
+        display: inline;
+        margin: -25px 0px 0px 80px;
+    }
+    .help .fas:hover{
+        color: #FF7700;
+        font-size: 23px;
+        transition: 0.3s ease;
+        margin-top: -25px;
+    }
+    .sect{margin: -45px 0px 0px 0px;}
+   
+    main hr{
+        width: 95%;
+    }
+    footer nav{
+        width: 100%;
+        height: auto;
+        margin: 25px 0px 25px 0px;
+    }
+    footer nav ul li{
+        display: inline;
+        margin: 0px;
+        padding: 0px 28px 0px 35px;
+    }
+
+    footer ul li a{
+        color: #ADAFB2;
+    }
+    footer ul li a:hover{
+        color: #FF7700;
+        text-decoration: none;
+    }
+    
+    footer>section ul li{
+        font-size: 25px;
+    }
+    footer>section ul li:hover{
+        color: #FF7700;
+    }
+    .footer-p{
+        order: 0;
+        width: 60%;
+        font-size: 12px;
+        color: #ADAFB2;
+        margin: 2% 0px 0px 5%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    }
+    .footer-icon{
+        order: 1;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    footer ul li{
+        margin: 4% 5% 0px 0px;
+        padding: 0px 0px;
+    }
+    .footer hr{
+        width: 94%;
+    }
+}
