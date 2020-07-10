@@ -726,7 +726,7 @@ footer>section{
     .street-rod{order: 2;}
     .iron-883{order: 3;}
    
-    .street-750 h3{
+    .street-750 h3, .street-rod h3, .iron-883 h3{
         font-size: 25px;
         margin: 25px 0px 5px 0px;
         
