@@ -713,6 +713,7 @@ footer>section{
         text-align: center;
         background-color: #fff;
         height: 355px;
+        overflow: visible;
     }    
     .street-750{order: 1;}
     
@@ -732,20 +733,26 @@ footer>section{
         border: 2px solid #FF7700;
     }
 
-
     .hide {display: none;}
-          
+    .hide:hover{display: block;}    
     .myDIV:hover + .hide {
         display: block;
     }
-    .dot:hover{
-        display: block;
-        border: 2px solid black;
+    .dot {
+        height: 20px;   
+        width: 20px;
+        background-color: #bbb;
         border-radius: 50%;
-        height: 25px;
-        width: 25px;
-        transition: 0.3s ease;
-  }
+        display: inline-block;
+        margin: 10px 2px;  
+    }
+    .dot:hover{
+          border: 2px solid black;
+          border-radius: 50%;
+          height: 25px;
+          width: 25px;
+          transition: 0.3s ease;
+    }
 
 
     .button{

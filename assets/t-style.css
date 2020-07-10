@@ -17,6 +17,7 @@ h4,
 h5 {
   margin: 0; 
 }
+h3{margin-top: 20px;}
 ul, li, a{
     list-style: none;
     text-decoration: none;
@@ -730,7 +731,7 @@ footer>section{
         margin: 25px 0px 5px 0px;
         
     }
-    .street-750 p{
+    .street-750 p, .street-rod p, .iron-883 p{
         font-size: 16px;
         font-weight: 300;
         margin: 0px;
@@ -740,21 +741,26 @@ footer>section{
         transition: 0.5s ease;
         border: 2px solid #FF7700;
     }
-
-
     .hide {display: none;}
-          
+    .hide:hover{display: block;}    
     .myDIV:hover + .hide {
         display: block;
     }
-    .dot:hover{
-        display: block;
-        border: 2px solid black;
+    .dot {
+        height: 20px;
+        width: 20px;
+        background-color: #bbb;
         border-radius: 50%;
-        height: 25px;
-        width: 25px;
-        transition: 0.3s ease;
-  }
+        display: inline-block;
+        margin: 10px 2px;  
+    }
+    .dot:hover{
+          border: 2px solid black;
+          border-radius: 50%;
+          height: 25px;
+          width: 25px;
+          transition: 0.3s ease;
+    }
 
 
     .button{
